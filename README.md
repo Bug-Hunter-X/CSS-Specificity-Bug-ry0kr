@@ -1,0 +1,1 @@
+This repository contains a CSS file demonstrating a common specificity problem and its solution.  The bug showcases how a more specific selector unintentionally overrides a more general selector, leading to unexpected styling. The solution demonstrates how to address this by adjusting the specificity of your selectors or using the !important declaration (use sparingly!).
