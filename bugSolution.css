@@ -1,0 +1,15 @@
+/* Solution: Increase the specificity of the intended style or use !important (use sparingly!) */
+#myElement {
+  color: blue;
+}
+.myClass {
+  /* This is overridden in the bug file unless specificity is addressed or !important is used*/
+  color: red; 
+}
+.myClass #myElement {
+  color: green; /* This will override #myElement because of higher specificity */
+}
+/* Using !important - use sparingly! */
+.myClass {
+  color: red !important;
+}
